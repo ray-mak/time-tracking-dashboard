@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Time Tracking Dashboard"/>
+        <title>Time Tracking Dashboard</title>
+        <link rel="stylesheet" href="time-tracker-css.css"/>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div id="main-card" class="row-span-2">
+                    <div class="profile">
+                        <img src="images/image-jeremy.png" alt="Jeremy Robson" class="profile-pic"/>
+                        <div class="name-container">        
+                            <p class="subheading">Report for</p>
+                            <div class="flname">
+                                <p class="fname">Jeremy</p>
+                                <p class="lname">Robson</p>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="time-selector">
+                        <p id="daily">Daily</p>
+                        <p id="weekly">Weekly</p>
+                        <p id="monthly">Monthly</p>
+                    </div>
+                </div>
+                <div id="work-card" class="bg-card">
+                    <div class="display-card">
+                        <div class="label-container">
+                            <p class="label">Work</p>
+                            <img src="images/icon-ellipsis.svg" alt="ellipse icon" class="ellipse"/>
+                        </div>
+                        <div class="time-container">
+                            <p id="work-current" class="current-display">32hrs</p>
+                            <p id="work-previous" class="previous-display">Last week - 36hrs</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="play-card" class="bg-card">
+                    <div class="display-card">
+                        <div class="label-container">
+                            <p class="label">Play</p>
+                            <img src="images/icon-ellipsis.svg" alt="ellipse icon" class="ellipse"/>
+                        </div>
+                        <div class="time-container">
+                            <p id="play-current" class="current-display">10hrs</p>
+                            <p id="play-previous" class="previous-display">Last week - 8hrs</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="study-card" class="bg-card">
+                    <div class="display-card">
+                        <div class="label-container">
+                            <p class="label">Study</p>
+                            <img src="images/icon-ellipsis.svg" alt="ellipse icon" class="ellipse"/>
+                        </div>
+                        <div class="time-container">
+                            <p id="study-current" class="current-display">4hrs</p>
+                            <p id="study-previous" class="previous-display">Last week - 7hrs</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="exercise-card" class="bg-card">
+                    <div class="display-card">
+                        <div class="label-container">
+                            <p class="label">Exercise</p>
+                            <img src="images/icon-ellipsis.svg" alt="ellipse icon" class="ellipse"/>
+                        </div>
+                        <div class="time-container">
+                            <p id="exercise-current" class="current-display">4hrs</p>
+                            <p id="exercise-previous" class="previous-display">Last week - 5hrs</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="social-card" class="bg-card">
+                    <div class="display-card">
+                        <div class="label-container">
+                            <p class="label">Social</p>
+                            <img src="images/icon-ellipsis.svg" alt="ellipse icon" class="ellipse"/>
+                        </div>
+                        <div class="time-container">
+                            <p id="social-current" class="current-display">5hrs</p>
+                            <p id="social-previous" class="previous-display">Last week - 10hrs</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="self-care-card" class="bg-card">
+                    <div class="display-card">
+                        <div class="label-container">
+                            <p class="label">Self Care</p>
+                            <img src="images/icon-ellipsis.svg" alt="ellipse icon" class="ellipse"/>
+                        </div>
+                        <div class="time-container">
+                            <p id="self-care-current" class="current-display">2hrs</p>
+                            <p id="self-care-previous" class="previous-display">Last week - 2hrs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="time-tracker-js.js"></script>
+    </body>
+</html>
